@@ -65,8 +65,9 @@ function editNote(index) {
     let editHtml = `
                     <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
                         <div class="card-body">
-                            <input type="text" id="updateTitle" value="${updateNote.title}" class="form-control">
+                            <input type="text" id="updateTitle" value="${updateNote.title}" class="form-control mb-1">
                             <textarea class="form-control" id="updateTxt" rows="3">${updateNote.text}</textarea>
+                            <hr>
                             <button id="uppdateBtn" class="btn btn-success">Update</button>
                         </div>
                     </div>`;
